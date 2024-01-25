@@ -1,0 +1,107 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar{
+    background-color:  #AE0505;
+    height: 15vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    height: 10vh;
+    width: 10vh;
+    margin-top: 2.5vh;
+    margin-left: 5vh;
+}
+
+.content{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10vh;
+    box-shadow: 10px 5px 5px rgb(109, 109, 109);
+    border-radius: 20px;
+
+
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.forms{
+    position: relative;
+    justify-content: center;
+    
+}
+.form{
+    margin-bottom: 2vh;
+    
+}
+
+input{
+    Width:80%;
+    Height:5vh;
+    border-radius: 20px;
+    margin-bottom: 4vh;
+    border: 3px solid #AE0505;
+    margin-left: 10%;
+}
+
+.btn{
+
+    width: 50%;
+    height: 10vh;
+    flex-shrink: 0;
+    background-color: #2D2A2A;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    margin-top: 5vh;
+    margin-left: 25%;
+    margin-bottom: 5vh;
+    
+
+}
+
+
+
+.buffete{
+position: absolute;
+width: 578px;
+height: auto;
+left: 140px;
+top: 210px;
+background: url(image.png);
+border-radius: 20px;
+
+}
+
+a{
+    color: #AE0505;
+}
+
+.message{
+    display: flex;
+    justify-content: center;
+}

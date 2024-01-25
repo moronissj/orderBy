@@ -1,0 +1,11 @@
+.nombre{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.contraseña{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    
+}
